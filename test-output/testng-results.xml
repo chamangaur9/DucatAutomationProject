@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="9" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-29T08:43:51 IST" name="Suite" finished-at="2024-09-29T08:44:36 IST" duration-ms="45459">
+    <groups>
+    </groups>
+    <test started-at="2024-09-29T08:43:51 IST" name="Test" finished-at="2024-09-29T08:44:36 IST" duration-ms="45459">
+      <class name="TestCase.Login">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.Login@3e8c3cb]" started-at="2024-09-29T08:43:51 IST" name="setup" finished-at="2024-09-29T08:43:54 IST" duration-ms="3727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestCase1()[pri:0, instance:TestCase.Login@3e8c3cb]" started-at="2024-09-29T08:43:54 IST" name="TestCase1" finished-at="2024-09-29T08:43:55 IST" duration-ms="740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCase.Login@3e8c3cb]" started-at="2024-09-29T08:43:55 IST" name="tearDown" finished-at="2024-09-29T08:43:55 IST" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.Login@3e8c3cb]" started-at="2024-09-29T08:43:55 IST" name="setup" finished-at="2024-09-29T08:43:57 IST" duration-ms="1682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestCase2()[pri:0, instance:TestCase.Login@3e8c3cb]" started-at="2024-09-29T08:43:57 IST" name="TestCase2" finished-at="2024-09-29T08:44:00 IST" duration-ms="2632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCase.Login@3e8c3cb]" started-at="2024-09-29T08:44:00 IST" name="tearDown" finished-at="2024-09-29T08:44:00 IST" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.Login@3e8c3cb]" started-at="2024-09-29T08:44:00 IST" name="setup" finished-at="2024-09-29T08:44:02 IST" duration-ms="1759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestCase3()[pri:0, instance:TestCase.Login@3e8c3cb]" started-at="2024-09-29T08:44:02 IST" name="TestCase3" finished-at="2024-09-29T08:44:03 IST" duration-ms="715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase3 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCase.Login@3e8c3cb]" started-at="2024-09-29T08:44:03 IST" name="tearDown" finished-at="2024-09-29T08:44:03 IST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.Login@3e8c3cb]" started-at="2024-09-29T08:44:03 IST" name="setup" finished-at="2024-09-29T08:44:04 IST" duration-ms="1679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestCase4()[pri:0, instance:TestCase.Login@3e8c3cb]" started-at="2024-09-29T08:44:04 IST" name="TestCase4" finished-at="2024-09-29T08:44:05 IST" duration-ms="524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase4 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCase.Login@3e8c3cb]" started-at="2024-09-29T08:44:05 IST" name="tearDown" finished-at="2024-09-29T08:44:05 IST" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.Login@3e8c3cb]" started-at="2024-09-29T08:44:05 IST" name="setup" finished-at="2024-09-29T08:44:07 IST" duration-ms="1677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestCase5()[pri:0, instance:TestCase.Login@3e8c3cb]" started-at="2024-09-29T08:44:07 IST" name="TestCase5" finished-at="2024-09-29T08:44:08 IST" duration-ms="630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase5 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCase.Login@3e8c3cb]" started-at="2024-09-29T08:44:08 IST" name="tearDown" finished-at="2024-09-29T08:44:08 IST" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.Login@3e8c3cb]" started-at="2024-09-29T08:44:08 IST" name="setup" finished-at="2024-09-29T08:44:10 IST" duration-ms="1924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestCase6()[pri:0, instance:TestCase.Login@3e8c3cb]" started-at="2024-09-29T08:44:10 IST" name="TestCase6" finished-at="2024-09-29T08:44:10 IST" duration-ms="681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase6 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCase.Login@3e8c3cb]" started-at="2024-09-29T08:44:10 IST" name="tearDown" finished-at="2024-09-29T08:44:11 IST" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.Login@3e8c3cb]" started-at="2024-09-29T08:44:11 IST" name="setup" finished-at="2024-09-29T08:44:12 IST" duration-ms="1622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestCase7()[pri:0, instance:TestCase.Login@3e8c3cb]" started-at="2024-09-29T08:44:12 IST" name="TestCase7" finished-at="2024-09-29T08:44:18 IST" duration-ms="5748" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase7 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCase.Login@3e8c3cb]" started-at="2024-09-29T08:44:18 IST" name="tearDown" finished-at="2024-09-29T08:44:18 IST" duration-ms="284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.Login@3e8c3cb]" started-at="2024-09-29T08:44:18 IST" name="setup" finished-at="2024-09-29T08:44:20 IST" duration-ms="1863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestCase8()[pri:0, instance:TestCase.Login@3e8c3cb]" started-at="2024-09-29T08:44:20 IST" name="TestCase8" finished-at="2024-09-29T08:44:21 IST" duration-ms="622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase8 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCase.Login@3e8c3cb]" started-at="2024-09-29T08:44:21 IST" name="tearDown" finished-at="2024-09-29T08:44:21 IST" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.Login@3e8c3cb]" started-at="2024-09-29T08:44:21 IST" name="setup" finished-at="2024-09-29T08:44:23 IST" duration-ms="1608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestCase9()[pri:0, instance:TestCase.Login@3e8c3cb]" started-at="2024-09-29T08:44:23 IST" name="TestCase9" finished-at="2024-09-29T08:44:23 IST" duration-ms="681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase9 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCase.Login@3e8c3cb]" started-at="2024-09-29T08:44:23 IST" name="tearDown" finished-at="2024-09-29T08:44:24 IST" duration-ms="289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCase.Login -->
+      <class name="TestCase.Product">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.Product@33bc72d1]" started-at="2024-09-29T08:44:24 IST" name="setup" finished-at="2024-09-29T08:44:25 IST" duration-ms="1669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestCase1()[pri:0, instance:TestCase.Product@33bc72d1]" started-at="2024-09-29T08:44:25 IST" name="TestCase1" finished-at="2024-09-29T08:44:28 IST" duration-ms="2739" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Product] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Product] but found []
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at TestCase.Product.TestCase1(Product.java:25)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCase.Product@33bc72d1]" started-at="2024-09-29T08:44:28 IST" name="tearDown" finished-at="2024-09-29T08:44:30 IST" duration-ms="1777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCase.Product@33bc72d1]" started-at="2024-09-29T08:44:30 IST" name="setup" finished-at="2024-09-29T08:44:32 IST" duration-ms="1819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="TestCase2()[pri:0, instance:TestCase.Product@33bc72d1]" started-at="2024-09-29T08:44:32 IST" name="TestCase2" finished-at="2024-09-29T08:44:36 IST" duration-ms="4036" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [1] but found [2]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [1] but found [2]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at TestCase.Product.TestCase2(Product.java:44)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCase.Product@33bc72d1]" started-at="2024-09-29T08:44:36 IST" name="tearDown" finished-at="2024-09-29T08:44:36 IST" duration-ms="343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCase.Product -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
