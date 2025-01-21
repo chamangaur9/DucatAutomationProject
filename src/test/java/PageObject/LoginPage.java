@@ -15,6 +15,7 @@ public class LoginPage {
 	By username = By.id("user-name"); 
 	By passowrd = By.id("password");
 	By loginButton = By.id("login-button");
+	By LoginText = By.id("add-to-cart-sauce-labs-backpack");
 	
 	public void EnterUsername(String Username)
 	{
@@ -35,4 +36,13 @@ public class LoginPage {
 		driver.findElement(passowrd).sendKeys(Password);
 		driver.findElement(loginButton).click();
 	}
+	
+	public String Logintext()
+	{	
+		String Title = driver.findElement(LoginText).getText();
+		
+		return Title;
+	}
+	
+	
 }

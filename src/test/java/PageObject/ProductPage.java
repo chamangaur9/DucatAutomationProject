@@ -18,7 +18,7 @@ public class ProductPage extends TestBase {
 	By product_heading = By.xpath("//span[contains(text(),Products)");
 	By add_to_cartbutton1 = By.id("add-to-cart-sauce-labs-backpack");
 	By add_to_cartbutton2 = By.id("add-to-cart-sauce-labs-bike-light");
-	By Shopping_cart_badge = By.xpath("//a[@class='shopping_cart_link']");
+	By Shopping_cart_badge = By.xpath("//span[contains(text(),'Products')]");
 	
 	public String getProductText()
 	{

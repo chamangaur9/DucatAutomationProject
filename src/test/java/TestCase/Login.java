@@ -1,6 +1,12 @@
 package TestCase;
 
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import PageObject.LoginPage;
@@ -8,113 +14,35 @@ import Utils.TestBase;
 
 public class Login extends TestBase{
 	 
-	@Test
-	public void TestCase1(){
-		LoginPage loginPage = new LoginPage(driver);
-		loginPage.EnterUsername("standard_user");
-		loginPage.EnterPassword("secret_sauce");
-		loginPage.clickLoginButton();
+	@DataProvider(name="LoginData")
+	public String[][] GetData() 
+	{
+		String loginData[][] = {
+				{"standard_user","secret_sauce"},
+					{"locked_out_user","secret_sauce"},
+					{"problem_user","secret_sauce"},
+					{"performance_glitch_user","secret_sauce"},
+					{"error_user","secret_sauce"},
+					{"visual_user","secret_sauce"},
+					{"chaman_user","secret_sauce"},
+					{"Test_user","secret_sauce"}		
+		};
 		
-	String ActualTitle = driver.getTitle();
-	String ExpectedTitle= "Swag Labs";
-	Assert.assertEquals(ActualTitle, ExpectedTitle);
+		return loginData;
 	}
-	
-	@Test
-	public void TestCase2() throws InterruptedException{
+	@Test(dataProvider="LoginData")
+	public void TestCase1(String Username, String Password){
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(3)); 
+		
 		LoginPage loginPage = new LoginPage(driver);
-		loginPage.EnterUsername("standard_user");
-		loginPage.EnterPassword("secret_sauce01");
+		loginPage.EnterUsername(Username);
+		loginPage.EnterPassword(Password);
 		loginPage.clickLoginButton();
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("add-to-cart-sauce-labs-backpack")));
 		
-		Thread.sleep(2000);
 		
-	String ActualTitle = driver.getTitle();
-	String ExpectedTitle = "Swag Labs";
-	Assert.assertEquals(ActualTitle, ExpectedTitle);
-	}
-	
-	@Test
-	public void TestCase3(){
-		LoginPage loginPage = new LoginPage(driver);
-		loginPage.EnterUsername("standard");
-		loginPage.EnterPassword("secret_sauce");
-		loginPage.clickLoginButton();
-		
-	String ActualTitle = driver.getTitle();
-	String ExpectedTitle= "Swag Labs";
-	Assert.assertEquals(ActualTitle, ExpectedTitle);
-	}
-	
-	@Test
-	public void TestCase4(){
-		LoginPage loginPage = new LoginPage(driver);
-		loginPage.EnterUsername("standard");
-		loginPage.EnterPassword("secret");
-		loginPage.clickLoginButton();
-		
-	String ActualTitle = driver.getTitle();
-	String ExpectedTitle= "Swag Labs";
-	Assert.assertEquals(ActualTitle, ExpectedTitle);
-	}
-	
-	@Test
-	public void TestCase5(){
-		LoginPage loginPage = new LoginPage(driver);
-		loginPage.EnterUsername("locked_out_user");
-		loginPage.EnterPassword("secret_sauce");
-		loginPage.clickLoginButton();
-		
-	String ActualTitle = driver.getTitle();
-	String ExpectedTitle= "Swag Labs";
-	Assert.assertEquals(ActualTitle, ExpectedTitle);
-	}
-	
-	@Test
-	public void TestCase6(){
-		LoginPage loginPage = new LoginPage(driver);
-		loginPage.EnterUsername("problem_user");
-		loginPage.EnterPassword("secret_sauce");
-		loginPage.clickLoginButton();
-		
-	String ActualTitle = driver.getTitle();
-	String ExpectedTitle= "Swag Labs";
-	Assert.assertEquals(ActualTitle, ExpectedTitle);
-	}
-	
-	@Test
-	public void TestCase7(){
-		LoginPage loginPage = new LoginPage(driver);
-		loginPage.EnterUsername("performance_glitch_user");
-		loginPage.EnterPassword("secret_sauce");
-		loginPage.clickLoginButton();
-		
-	String ActualTitle = driver.getTitle();
-	String ExpectedTitle= "Swag Labs";
-	Assert.assertEquals(ActualTitle, ExpectedTitle);
-	}
-	
-	@Test
-	public void TestCase8(){
-		LoginPage loginPage = new LoginPage(driver);
-		loginPage.EnterUsername("error_user");
-		loginPage.EnterPassword("secret_sauce");
-		loginPage.clickLoginButton();
-		
-	String ActualTitle = driver.getTitle();
-	String ExpectedTitle= "Swag Labs";
-	Assert.assertEquals(ActualTitle, ExpectedTitle);
-	}
-	
-	@Test
-	public void TestCase9(){
-		LoginPage loginPage = new LoginPage(driver);
-		loginPage.EnterUsername("visual_user");
-		loginPage.EnterPassword("secret_sauce");
-		loginPage.clickLoginButton();
-		
-	String ActualTitle = driver.getTitle();
-	String ExpectedTitle= "Swag Labs";
+	String ActualTitle = loginPage.Logintext();
+	String ExpectedTitle= "Add to cart";
 	Assert.assertEquals(ActualTitle, ExpectedTitle);
 	}
 	
